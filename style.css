@@ -13,3 +13,54 @@ text-align: center;
 .settings{
     width: 5;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+form {
+    
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.email{
+  height: 100vh; /* Высота по высоте видимой области страницы */
+  width: 700px;
+  text-align: center;
+
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 305px;
+}
+h2{
+    margin-left: 556px;
+}
